@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amaia/src/projects/lib/my_lib.cpp
+iostream
+-
+string
+-
+fcntl.h
+-
+unistd.h
+-
+my_lib.hpp
+/home/amaia/src/projects/lib/my_lib.hpp
+
+/home/amaia/src/projects/lib/my_lib.hpp
+
