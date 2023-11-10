@@ -1,8 +1,0 @@
-/home/amaia/src/projects/build/CMakeFiles/rebuild_cache.dir
-/home/amaia/src/projects/build/CMakeFiles/edit_cache.dir
-/home/amaia/src/projects/build/lib/CMakeFiles/rebuild_cache.dir
-/home/amaia/src/projects/build/lib/CMakeFiles/edit_cache.dir
-/home/amaia/src/projects/build/lib/CMakeFiles/my_library.dir
-/home/amaia/src/projects/build/src/CMakeFiles/rebuild_cache.dir
-/home/amaia/src/projects/build/src/CMakeFiles/edit_cache.dir
-/home/amaia/src/projects/build/src/CMakeFiles/my_test_program.dir
