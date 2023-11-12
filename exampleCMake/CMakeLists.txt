@@ -6,11 +6,11 @@ message("------------------------------")
 cmake_minimum_required(VERSION 3.16.3)
 
 # The name of the executable will be : "My_Example"
-# When project(..) invoked the environment variable "PROJECT_NAME" will 
+# When project(..) invoked the variable "PROJECT_NAME" will 
 # have the value "My_Example"
 project(My_Example DESCRIPTION "A simple test program" LANGUAGES CXX)
 
-# Set two newe environemnt variables: one for src path and another for include path
+# Set two new variables: one for src path and another for include path
 # (PROJECT_SOURCE_DIR is set automatically when project(...) invoked
 # its value is the path to the called CMakeLists.txt file)
 set(SRC_DIR ${PROJECT_SOURCE_DIR}/src)
