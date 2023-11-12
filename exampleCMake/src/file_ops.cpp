@@ -2,7 +2,7 @@
 #include <string>
 #include <fcntl.h>
 #include <unistd.h>
-#include "my_lib.hpp"
+#include "file_ops.hpp"
 
 FileOperations::FileOperations(const std::string& filename) : filename(filename) {
  int fd = ::open(filename.c_str(),  O_RDWR | O_CREAT, 0666);
@@ -19,7 +19,7 @@ FileOperations::~FileOperations() {
 bool FileOperations::read(std::string& content) {
  int fd = ::open(filename.c_str(),  O_RDONLY, 0666);
     if (fd != -1) {
-        char buffer[1024]{0};;
+        char buffer[1024]{0};
 		ssize_t bytesRead = ::read(fd, buffer, sizeof(buffer));
 		close(fd);
         if (bytesRead == 0) {

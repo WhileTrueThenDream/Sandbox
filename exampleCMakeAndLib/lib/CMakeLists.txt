@@ -1,4 +1,3 @@
-
 message("------------------------------")
 message("Building the library ...")
 message("------------------------------")
